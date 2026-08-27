@@ -1,0 +1,69 @@
+{
+  "name": "mcp-server-powerpoint-plugins",
+  "metadata": {
+    "description": "Windows-only GitHub Copilot CLI plugins for PowerPoint automation with PowerPointMcp.",
+    "version": "1.0.0"
+  },
+  "owner": {
+    "name": "Stefan Brönner",
+    "email": "3026464+sbroenne@users.noreply.github.com"
+  },
+  "plugins": [
+    {
+      "name": "powerpoint-mcp",
+      "source": "./plugins/powerpoint-mcp",
+      "description": "Windows-only PowerPoint automation plugin that bootstraps the latest PowerPointMcp MCP runtime on first use.",
+      "version": "0.1.6",
+      "author": {
+        "name": "Stefan Brönner",
+        "email": "3026464+sbroenne@users.noreply.github.com",
+        "url": "https://github.com/sbroenne"
+      },
+      "homepage": "https://powerpointmcpserver.dev/",
+      "repository": "https://github.com/sbroenne/mcp-server-powerpoint",
+      "license": "MIT",
+      "keywords": [
+        "powerpoint",
+        "windows",
+        "mcp",
+        "slides",
+        "presentations",
+        "charts",
+        "automation",
+        "com-interop"
+      ],
+      "skills": [
+        "./plugins/powerpoint-mcp/skills/powerpoint-mcp"
+      ]
+    },
+    {
+      "name": "powerpoint-cli",
+      "source": "./plugins/powerpoint-cli",
+      "description": "Windows-only PowerPoint automation plugin that bootstraps the latest powerpointcli runtime on first use.",
+      "version": "0.1.6",
+      "author": {
+        "name": "Stefan Brönner",
+        "email": "3026464+sbroenne@users.noreply.github.com",
+        "url": "https://github.com/sbroenne"
+      },
+      "homepage": "https://powerpointmcpserver.dev/",
+      "repository": "https://github.com/sbroenne/mcp-server-powerpoint",
+      "license": "MIT",
+      "keywords": [
+        "powerpoint",
+        "windows",
+        "cli",
+        "automation",
+        "scripting",
+        "batch",
+        "slides",
+        "presentations",
+        "charts",
+        "ci-cd"
+      ],
+      "skills": [
+        "./plugins/powerpoint-cli/skills/powerpoint-cli"
+      ]
+    }
+  ]
+}
