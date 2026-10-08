@@ -13,7 +13,7 @@
       "name": "powerpoint-mcp",
       "source": "./plugins/powerpoint-mcp",
       "description": "Windows-only PowerPoint automation plugin that bootstraps the latest PowerPointMcp MCP runtime on first use.",
-      "version": "0.2.1",
+      "version": "0.3.2",
       "author": {
         "name": "Stefan Brönner",
         "email": "3026464+sbroenne@users.noreply.github.com",
@@ -33,6 +33,7 @@
         "com-interop"
       ],
       "skills": [
+        "./plugins/powerpoint-mcp/skills/powerpoint-deck-design",
         "./plugins/powerpoint-mcp/skills/powerpoint-mcp"
       ]
     },
@@ -40,7 +41,7 @@
       "name": "powerpoint-cli",
       "source": "./plugins/powerpoint-cli",
       "description": "Windows-only PowerPoint automation plugin that bootstraps the latest powerpointcli runtime on first use.",
-      "version": "0.2.1",
+      "version": "0.3.2",
       "author": {
         "name": "Stefan Brönner",
         "email": "3026464+sbroenne@users.noreply.github.com",
@@ -62,7 +63,8 @@
         "ci-cd"
       ],
       "skills": [
-        "./plugins/powerpoint-cli/skills/powerpoint-cli"
+        "./plugins/powerpoint-cli/skills/powerpoint-cli",
+        "./plugins/powerpoint-cli/skills/powerpoint-deck-design"
       ]
     }
   ]
